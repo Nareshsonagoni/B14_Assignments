@@ -34,6 +34,9 @@ def odd_numbers_out(numbers):
             odd_numubers.append(item)
             # print(odd_numubers)
 
-    return odd_numubers
+    return f'Odd numbers: {odd_numubers},' \
+           f'Minimum number: {min},' \
+           f'Maximum number: {max}'
+
 
 print(odd_numbers_out(25))
