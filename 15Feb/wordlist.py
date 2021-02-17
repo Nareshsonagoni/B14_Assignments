@@ -11,4 +11,5 @@ def separate_by_fullstop(paragraph):
 
 
 file = extras.paragraph
-print(separate_by_fullstop(file))
+file2 = separate_by_fullstop(file)
+# print(len(file2))
