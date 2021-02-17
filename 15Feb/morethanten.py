@@ -1,5 +1,5 @@
 
-''' create an array with count of words from each in paragraph'''
+''' Extract the list of words that contains more than 10 words'''
 
 import wordlist
 
@@ -26,7 +26,7 @@ def words_count(arr):
             if len(word) >= 10:
                 more_ten[i].append(word)
 
-    return len_words
+    return more_ten
 
 
 print(words_count(array))
